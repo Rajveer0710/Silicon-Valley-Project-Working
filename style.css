@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.startbutton{
+width:225px;
+height: 70px;
+background-image: url('start.png');
+background-color: #80deea;
+padding: 70px;
+background-size: cover;
+display: inline-block;
+cursor: pointer;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+outline: none;
+}
